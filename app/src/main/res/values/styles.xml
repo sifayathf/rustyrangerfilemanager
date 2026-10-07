@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RustyRanger" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#12131C</item>
+        <item name="android:navigationBarColor">#12131C</item>
+        <item name="android:windowBackground">#12131C</item>
+        <item name="android:colorBackground">#12131C</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowDisablePreview">false</item>
+    </style>
+
+    <style name="Theme.RustyRanger.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#12131C</item>
+        <item name="windowSplashScreenAnimatedIcon">@android:drawable/ic_menu_agenda</item>
+        <item name="postSplashScreenTheme">@style/Theme.RustyRanger</item>
+    </style>
+</resources>
